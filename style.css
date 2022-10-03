@@ -303,3 +303,54 @@
     width: 30%;
   }
   /* blog post ends here */
+
+  /* contact section starts here */
+#contact-section {
+    background: #4c4c4c;
+    min-height: 90vh;
+  }
+  
+  #contact-form {
+    padding: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem #222, -0.1rem 0 0.1rem #222;
+    margin: 1rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-control {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-control label {
+    font-size: 1.6rem;
+    flex: 0.3;
+  }
+  
+  input,
+  textarea {
+    flex: 0.7;
+    width: 40rem;
+    font-size: 1.6rem;
+    padding: 2rem 1rem;
+    border: none;
+    border-radius: 0.6rem;
+  }
+  
+  textarea {
+    resize: none;
+    height: 12vh;
+  }
+  
+  .form-btn-field {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .contact-btn {
+    width: 30%;
+  }
+  /* contact section ends here */
