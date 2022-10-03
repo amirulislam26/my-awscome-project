@@ -76,3 +76,59 @@
     cursor: pointer;
   }
   /* header ends here */
+
+  /* banner section starts here */
+  #home{
+    color: white;
+    background-color:#243762;
+  }
+#blog-banner-section {
+    padding: 5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 95vh;
+  }
+  
+  #blog-banner-section article {
+    flex-basis: 50%;
+    margin: 1rem;
+  }
+  
+  #blog-banner-section aside {
+    flex-basis: 40%;
+    margin: 1rem;
+  }
+  
+  .banner-img {
+    width: 55rem;
+    height: 55rem;
+    border: 0.3rem solid black;
+    transition: transform 0.2s;
+  }
+  
+  .banner-img:hover {
+    transform: scale(1.1);
+  }
+  
+  .banner-heading {
+    display: inline-block;
+    padding: 1rem;
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    background-color: black;
+    color: #fff;
+    border-radius: 2px;
+  }
+  
+  .banner-description {
+    font-size: 1.8rem;
+  }
+  .hire-me{
+    font-size: 10px;
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  /* banner section ends here */
